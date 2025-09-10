@@ -33,23 +33,21 @@ Este trabajo muestra cómo es posible **reducir drásticamente la dimensionalida
 1. Clonar el repositorio.
 Podés instalar todas las dependencias con:
 
-    pip install numpy pandas matplotlib seaborn scikit-learn
-
-===============================
+    pip install numpy pandas matplotlib seaborn scikit-lear
+   
 INSTRUCCIONES DE EJECUCIÓN
-===============================
 
-2. Asegurate de tener instalado Python 3 y las bibliotecas mencionadas.
+3. Asegurate de tener instalado Python 3 y las bibliotecas mencionadas.
 
-3. Descargá el dataset "Fashion-MNIST" en formato CSV. Por defecto, el archivo espera el CSV en:
+4. Descargá el dataset "Fashion-MNIST" en formato CSV. Por defecto, el archivo espera el CSV en:
 
     C:/Users/ameli/Desktop/Facultad/LaboDatos/TP2/Fashion-MNIST.csv
 
    Cambiá esa ruta (línea 30 del .py) al path correspondiente en tu computadora si es necesario.
 
-4. El script generará múltiples visualizaciones y métricas que se mostrarán automáticamente en pantalla.
+5. El script generará múltiples visualizaciones y métricas que se mostrarán automáticamente en pantalla.
 	
-5. Tener en cuenta que en Clasificacion Binaria y Clasificacion Multiclase hay variables con el mismo nombre. Asigna correctamente las variables 
+6. Tener en cuenta que en Clasificacion Binaria y Clasificacion Multiclase hay variables con el mismo nombre. Asigna correctamente las variables 
    de cada seccion antes de correr sus funciones (correr los bloques de código en orden).
 
 
