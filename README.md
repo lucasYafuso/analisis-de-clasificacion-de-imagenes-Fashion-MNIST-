@@ -1,26 +1,21 @@
-
----
-
-# Clasificación de imágenes (Fashion-MNIST)
-
-```markdown
 # Clasificación de prendas con aprendizaje supervisado (Fashion-MNIST)
 
-## 📌 Descripción
+## Descripción
 Este proyecto aborda la tarea de **clasificación de imágenes** usando el dataset **Fashion-MNIST**.  
 Se probaron diferentes técnicas de **selección de atributos**, reducción de dimensionalidad y modelos de clasificación (kNN, árboles de decisión, regresión logística).
 
 El objetivo fue **comparar modelos** y demostrar que con solo una **fracción de píxeles (30–60)** es posible lograr una precisión muy cercana a la de usar la imagen completa.
 
-## 🛠️ Tecnologías
+## Tecnologías
 - Python (NumPy, Pandas, Matplotlib, Seaborn)
 - Scikit-learn (kNN, Decision Trees, Logistic Regression)
 - Jupyter Notebook
 
-## 📂 Estructura
+## Estructura
+- scrypt.py (todo el codigo separado en bloques)
+- informe del analisis
 
-
-## 📊 Resultados principales
+## Resultados principales
 - **Clasificación binaria (clases 0 “remera” vs 8 “bolso”):**  
   - kNN alcanzó **96.8% de exactitud** usando solo 60 píxeles seleccionados aleatoriamente.  
   - Árbol de decisión obtuvo el **mejor recall** (97.3%).  
@@ -31,14 +26,10 @@ El objetivo fue **comparar modelos** y demostrar que con solo una **fracción de
   - Las clases más fáciles (pantalones, bolsos, botas) superaron F1=0.9.  
   - La clase más difícil fue **camisa (F1≈0.54)**, confundida con remera y campera.  
 
-![Matriz de confusión](ruta/a/imagen.png)
-
-## 🌍 Relevancia
+## Relevancia
 Este trabajo muestra cómo es posible **reducir drásticamente la dimensionalidad** en problemas de imágenes sin perder rendimiento, lo cual tiene impacto en eficiencia computacional.
 
-## ▶️ Cómo usar
+## Cómo usar
 1. Clonar el repositorio.
-2. Instalar dependencias:  
-   ```bash
-   pip install -r requirements.txt
+2. Instalar dependencias y correr el codigo
 
