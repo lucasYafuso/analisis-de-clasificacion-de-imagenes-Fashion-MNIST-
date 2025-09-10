@@ -37,9 +37,9 @@ Este trabajo muestra cómo es posible **reducir drásticamente la dimensionalida
 
 3. Asegurate de tener instalado Python 3 y las bibliotecas mencionadas.
 
-4. Descargá el dataset "Fashion-MNIST" en formato CSV
-	[1] Fashion-MNIST: https://github.com/zalandoresearch/fashion-mnist
-	[2] MNIST: https://en.wikipedia.org/wiki/MNIST_database
+4. Descargá el dataset "Fashion-MNIST" en formato CSV.
+	[1] Fashion-MNIST: https://github.com/zalandoresearch/fashion-mnist.
+	[2] MNIST: https://en.wikipedia.org/wiki/MNIST_database.
 
 5. Si se desea ejecutar el codigo, poner el pathing de los dataset en la linea 30 del script 
 
