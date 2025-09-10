@@ -1,4 +1,4 @@
-# Clasificación de prendas con aprendizaje supervisado (Fashion-MNIST)
+# Clasificación de imagenes con aprendizaje supervisado (Fashion-MNIST)
 
 ## Descripción
 Este proyecto aborda la tarea de **clasificación de imágenes** usando el dataset **Fashion-MNIST**.  
